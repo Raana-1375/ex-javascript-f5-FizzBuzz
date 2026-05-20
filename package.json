@@ -1,0 +1,20 @@
+{
+  "name": "ex-javascript-f5-fizzbuzz-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fizzbuzz.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raana-1375/ex-javascript-f5-FizzBuzz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
