@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { fizzBuzz } from './fizzbuzz.js';
+import { fizzBuzz } from '../src/js/fizzbuzz.js';
 
 describe('FizzBuzz Projesi Test Senaryoları', () => {
     
