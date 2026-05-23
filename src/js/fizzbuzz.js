@@ -1,0 +1,15 @@
+export function fizzBuzz(number) {
+  if (typeof number !== 'number') {
+    throw new Error('The provided data is not a number');
+  }
+
+  if (number % 3 === 0 && number % 5 === 0) {
+    return 'FizzBuzz';
+  } else if (number % 3 === 0) {
+    return 'Fizz';
+  } else if (number % 5 === 0) {
+    return 'Buzz';
+  } else {
+    return number.toString();
+  }
+}
