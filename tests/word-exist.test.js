@@ -23,4 +23,14 @@ test('should return true regardless of upper or lower case', () => {
         // tHEN
         expect(result).toBe(true);
     });
+   test('should return false when letters are scrambled or broken', () => {
+        // gIVEN
+        const text = 'abcnEglishsef';
+        
+        // wHEN
+        const result = isEnglishPresent(text);
+        
+        // tHEN
+        expect(result).toBe(false);
+    }); 
 });
