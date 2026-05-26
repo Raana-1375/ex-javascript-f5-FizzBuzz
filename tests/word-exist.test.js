@@ -13,5 +13,14 @@ describe('Word Exist - English Character Checker', () => {
         // tHEN
         expect(result).toBe(true);
     });
-
+test('should return true regardless of upper or lower case', () => {
+        // gIVEN
+        const text = 'abceNglisHxyz';
+        
+        // wHEN
+        const result = isEnglishPresent(text);
+        
+        // tHEN
+        expect(result).toBe(true);
+    });
 });
