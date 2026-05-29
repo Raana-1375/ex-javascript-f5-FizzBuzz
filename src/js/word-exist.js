@@ -1,4 +1,4 @@
 export function isEnglishPresent(text) {
-    const lowercaseText = text.toLowerCase();
-    return lowercaseText.includes('english');
+    if (typeof text !== 'string') return false;
+    return text.toLowerCase().includes('english');
 }
