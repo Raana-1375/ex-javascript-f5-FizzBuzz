@@ -4,33 +4,33 @@ import { isEnglishPresent } from '../src/js/word-exist';
 describe('Word Exist - English Character Checker', () => {
     
     test('should return true when the string contains "English" exactly', () => {
-        // gIVEN
+        // GIVEN
         const text = 'abcEnglishdef';
         
-        // wHEN
+        // WHEN
         const result = isEnglishPresent(text);
         
-        // tHEN
+        // THEN
         expect(result).toBe(true);
     });
 test('should return true regardless of upper or lower case', () => {
-        // gIVEN
+        // GIVEN
         const text = 'abceNglisHxyz';
         
-        // wHEN
+        // WHEN
         const result = isEnglishPresent(text);
         
-        // tHEN
+        // THEN
         expect(result).toBe(true);
     });
    test('should return false when letters are scrambled or broken', () => {
-        // gIVEN
+        // GIVEN
         const text = 'abcnEglishsef';
         
-        // wHEN
+        // WHEN
         const result = isEnglishPresent(text);
         
-        // tHEN
+        // THEN
         expect(result).toBe(false);
     }); 
 });
