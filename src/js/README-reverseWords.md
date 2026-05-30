@@ -12,3 +12,10 @@
 
 ## Testing
 [cite_start]Unit tests have been implemented to verify the functionality.
+
+## Setup and Run
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   npm test
