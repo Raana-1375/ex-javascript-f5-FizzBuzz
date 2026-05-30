@@ -4,3 +4,6 @@ import reverseWords from '../src/js/reverseWords';
 test('should reverse basic words', () => {
   expect(reverseWords("Hello World")).toBe("World Hello");
 });
+test('should remove leading and trailing spaces', () => {
+  expect(reverseWords("   espacios   ")).toBe("espacios");
+});
