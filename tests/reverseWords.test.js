@@ -10,3 +10,6 @@ test('should remove leading and trailing spaces', () => {
 test('should handle multiple spaces between words', () => {
   expect(reverseWords("Muchos      espacios")).toBe("espacios Muchos");
 });
+test('should keep punctuation attached to words', () => {
+  expect(reverseWords("Hi There.")).toBe("There. Hi");
+});
