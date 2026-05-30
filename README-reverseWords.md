@@ -19,3 +19,11 @@
    ```bash
    npm install
    npm test
+
+   ## Testing
+The project includes a robust testing suite using **Vitest**. All functional requirements have been verified, and all tests are passing.
+
+### Test Results
+![Test Results](./assets/Reversingtesting.png)
+
+*The image above shows all 13 tests passing successfully, covering basic word reversal, multiple spaces, punctuation handling, and empty inputs.*
