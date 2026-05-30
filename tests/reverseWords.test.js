@@ -7,3 +7,6 @@ test('should reverse basic words', () => {
 test('should remove leading and trailing spaces', () => {
   expect(reverseWords("   espacios   ")).toBe("espacios");
 });
+test('should handle multiple spaces between words', () => {
+  expect(reverseWords("Muchos      espacios")).toBe("espacios Muchos");
+});
