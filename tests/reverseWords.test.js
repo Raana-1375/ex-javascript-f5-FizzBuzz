@@ -13,3 +13,6 @@ test('should handle multiple spaces between words', () => {
 test('should keep punctuation attached to words', () => {
   expect(reverseWords("Hi There.")).toBe("There. Hi");
 });
+test('should return empty string for empty input', () => {
+  expect(reverseWords("")).toBe("");
+});
