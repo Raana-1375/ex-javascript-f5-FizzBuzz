@@ -1,6 +1,6 @@
 // test/countAnimals.test.js
 import { describe, it, expect } from 'vitest';
-import { countAnimals } from '../src/countAnimals';
+import { countAnimals } from '../src/js/countAnimals';
 
 describe('countAnimals - Input Validation', () => {
   // Scenario: El input no es un array
