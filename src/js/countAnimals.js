@@ -4,5 +4,15 @@ export const countAnimals = (animals) => {
     throw new Error("Invalid input: list must contain only boolean values");
   }
 
-  return;
+  const sheepCount = animals.filter((animal) => animal === true).length;
+  const wolfCount = animals.length - sheepCount;
+
+  // Refactored logic to be clear and concise
+  if (sheepCount === animals.length) return `There are ${sheepCount} sheep in total`;
+  if (wolfCount === animals.length) return "UPS!!! A pack of hungry wolves";
+  
+  // Scenarios for mixed groups
+  if (sheepCount > wolfCount) return `${sheepCount} sheep escaped!!!`;
+  
+  return "UPS!!! Wolves ate all the sheep";
 };
