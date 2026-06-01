@@ -22,3 +22,11 @@ describe('countAnimals - Input Validation', () => {
   it('should return "UPS!!! A pack of hungry wolves" when only wolves are present', () => {
     expect(countAnimals([false, false, false])).toBe("UPS!!! A pack of hungry wolves");
   });
+  // Scenario: More sheep than wolves
+  it('should return "2 sheep escaped!!!" when more sheep than wolves', () => {
+    expect(countAnimals([true, true, false])).toBe("2 sheep escaped!!!");
+  });
+  // Scenario: More wolves than sheep
+  it('should return "UPS!!! Wolves ate all the sheep" when more wolves than sheep', () => {
+    expect(countAnimals([true, false, false])).toBe("UPS!!! Wolves ate all the sheep");
+  });
