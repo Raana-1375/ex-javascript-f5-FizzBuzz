@@ -9,4 +9,4 @@
 ## Testing
 This project includes both the FizzBuzz and English Word Checker modules. The test output below confirms that all tests for both modules have passed successfully:
 
-![Testing result](../../assets/testing-word.png)
+![Testing result](../assets/testing-word.png)

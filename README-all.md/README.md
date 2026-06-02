@@ -1,7 +1,7 @@
 # FizzBuzz Project
 
 ## Project Preview
-![Application Screenshot](./assets/Testing.png)
+![Application Screenshot](../assets/Testing.png)
 
 ## Features & Test Scenarios
 The project includes a robust test suite covering 5 distinct scenarios using Vitest:
